@@ -1,18 +1,37 @@
-# 📚 Library Management System
+# 📚 Library Management System Database
 
-A MySQL-based Library Management System that manages books, authors, publishers, members, loans, reservations, and fines.  
-This project demonstrates the use of relational databases, foreign keys, and many-to-many relationships.
+**Author:** Mary Wambui  
+**Assignment:** Week 8 Final Project  
+**Technology:** MySQL 8+  
 
 ---
 
-## 🚀 Getting Started
+## 📖 Project Description
 
-### 1. Prerequisites
-- MySQL or MariaDB installed
-- MySQL client or a GUI tool (e.g., phpMyAdmin, MySQL Workbench)
-- (Optional) API layer (e.g., Node.js/Express, Django REST, Flask) if you want to expose endpoints
+This project is a **Library Management System** implemented using MySQL.  
+It is designed to manage books, authors, publishers, members, loans, reservations, and fines.  
 
-### 2. Clone the Repository
-```bash
-git clone https://github.com/Wambo-bit/library-db.git
-cd library-db
+The database demonstrates:
+- Proper **table design** with constraints
+- **Relationships** (One-to-One, One-to-Many, Many-to-Many)
+- **Sample data** for testing
+- **Validation** using CHECK constraints and ENUM values
+
+---
+
+## ⚡ Features
+
+- Manage **Publishers, Authors, Categories, Books**
+- Track **Members** and their **Library Cards**
+- Record **Loans** and **Returns**
+- Manage **Reservations** for books
+- Apply **Fines** for overdue or lost books
+
+---
+
+## 🛠️ How to Run
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Wambo-bit/library-management-system.git
+   cd library-management-system
